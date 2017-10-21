@@ -1,0 +1,31 @@
+{
+  "name": "nyt-mongo-scraper",
+  "version": "1.0.0",
+  "description": "web scraper",
+  "main": "server.js",
+  "scripts": {
+    "test": "scrape",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lilypad7/NYT-Mongo-Scraper.git"
+  },
+  "keywords": [
+    "scraper",
+    "mongo"
+  ],
+  "author": "Liliana Cortes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lilypad7/NYT-Mongo-Scraper/issues"
+  },
+  "homepage": "https://github.com/lilypad7/NYT-Mongo-Scraper#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "hbs": "^4.0.1",
+    "mongojs": "^2.4.1",
+    "mongoose": "^4.12.3",
+    "request": "^2.83.0"
+  }
+}
